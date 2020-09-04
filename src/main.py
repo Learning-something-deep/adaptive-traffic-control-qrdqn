@@ -12,14 +12,14 @@ from matplotlib import pyplot as plt
 
 # Static signalling
 sim_environment.endis_sumo_guimode(1)
-Nruns = 25
+Nruns = 150
 static_signalling.static_signalling(Nruns)
 plot_metrics.plot_all_metrics("Static signalling")
 
 
 # Longest Queue First (LQF) algorithm
 sim_environment.endis_sumo_guimode(1)
-Nruns = 25
+Nruns = 150
 lqf_algo.lqf(Nruns)
 plot_metrics.plot_all_metrics("LQF algo")
 
@@ -31,7 +31,7 @@ qr_dqn.qr_dqn_train(Nruns)
 
 # Try out performance
 sim_environment.endis_sumo_guimode(1)
-Nruns = 25; use_saved_model = 0
+Nruns = 150; use_saved_model = 0
 qr_dqn.qr_dqn_live_noplots(Nruns, use_saved_model)
 plot_metrics.plot_all_metrics("QR-DQN")
 
