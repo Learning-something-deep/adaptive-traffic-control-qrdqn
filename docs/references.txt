@@ -1,10 +1,12 @@
 1. Reinforcement Learning: An introduction by Richard S. Sutton and Andrew G. Barto,
 Chapter 10.
-2. Diagnosing Reinforcement Learning for Traffic Signal Control:
-https://arxiv.org/pdf/1905.04716.pdf
-3. Adaptive Traffic SIgnal Control: Exploring Reward Definition for Reinforcement Learning
+2. Adaptive Traffic SIgnal Control: Exploring Reward Definition for Reinforcement Learning
 https://www.sciencedirect.com/science/article/pii/S1877050917309912
-4. SUMO User Documentation:
+3. SUMO User Documentation:
 https://sumo.dlr.de/docs/SUMO_User_Documentation.html
-5. 
+4. Distributional Reinforcement Learning with Quantile Regression, 2017, arXiv:1710.10044v1
+5. Distributional Bellman and the C51 Algorithm: 
+   https://flyyufelix.github.io/2017/10/24/distributional-bellman.html
+6. https://github.com/senya-ashukha/quantile-regression-dqn-pytorch
+
 
