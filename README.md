@@ -24,7 +24,7 @@ The src folder contains the following files and sub-directories:
 	2. qr_dqn_live_noplots(): This module makes use of the trained Neural Network from qr_dqn_train() module to test the performance of the QR-DQN algorithm.
 5. sim_environment.py: This file acts as the RL environment. It returns the next state and reward given an action.
 6. plot_metrics.py: This file contains modules that plot the following metrics: Queue Length, Waiting Time, Time Loss and Dispersion Time. It also saves the metrics into the "datapoints" directory present in the src folder.
-7. test.py: This file plots the performance comparison graphs of QR-DQN, LQF, SS and SARSA algorithms using various metrics. 
+7. generate_plots.py: This file plots the performance comparison graphs of QR-DQN, LQF, SS and SARSA algorithms using various metrics. 
 8. rl_utils.py, logger.py: Contains various helper functions.
 9. datapoints: This folder contains the saved datapoints of the averaged metrics. Ensure that this directory is present inside the src folder.
 10. pt_trainedmodel: This folder contains the saved Neural Network weights after training. Ensure that this directory is present inside the src folder.
