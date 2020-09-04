@@ -32,4 +32,4 @@ The src folder contains the following files and sub-directories:
 ## Procedure to run the project
 1. Set the Nruns parameter for each algo in the main.py file to specify the no. of training/trial runs. Recommended minimum Nruns=25.
 2. Run main.py. This will run SS Algo for "Nruns" trials and LQF Algo for "Nruns" trials. Then training for QR-DQN will start. Based on the trained weights, QR-DQN Live will perform "Nruns" trials. All the performance metrics will be stored into the "/datapoints" sub-directory at the end of "Nruns" trials.
-3. Run test.py to get the performance comparison graphs.
+3. Run generate_plots.py to get the performance comparison graphs.
