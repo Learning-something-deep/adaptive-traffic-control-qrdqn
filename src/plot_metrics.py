@@ -21,6 +21,9 @@ run = 0
 timeLoss_all_runs = []
 waitingTime_all_runs = []
 qlength_all_runs = []
+huber_loss_arr = []
+running_rwrd_arr = []
+running_avg_rwrd_arr = []
 
 
 # Desc: Clears any existing data for all runs, and starts fresh.
@@ -176,6 +179,27 @@ def plot_all_metrics(title):
     with open(DATAPOINTS_BASE+title+'_runlen', 'wb') as fh:
         pickle.dump(run_lengths, fh)
 
+    fig5 = plt.figure()
+    fig5.suptitle(title)
+    plt.plot(huber_loss_arr, 'k')
+    plt.xlabel('Training Run length'), plt.ylabel('Huber Loss Distribution')
+    with open(DATAPOINTS_BASE+title+'_huber_loss', 'wb') as fh:
+        pickle.dump(huber_loss_arr, fh)
+
+    fig6 = plt.figure()
+    fig6.suptitle(title)
+    plt.plot(running_rwrd_arr)
+    plt.xlabel('Training Run length'), plt.ylabel('Reward Distribution')
+    with open(DATAPOINTS_BASE+title+'_run_rwrd', 'wb') as fh:
+        pickle.dump(running_rwrd_arr, fh)
+
+    fig7 = plt.figure()
+    fig7.suptitle(title)
+    plt.plot(running_avg_rwrd_arr)
+    plt.xlabel('Training Run length'), plt.ylabel('Average Reward Distribution')
+    with open(DATAPOINTS_BASE+title+'_avg_rwrd', 'wb') as fh:
+        pickle.dump(running_rwrd_arr, fh)
+    
     plt.show(block=False)
 
     return
@@ -224,3 +248,12 @@ def average_metrics(metric_all_runs):
 # Calculates average of a list
 def average(lst):
     return sum(lst) / len(lst)
+
+def huber_loss_record(huber_loss):
+	huber_loss_arr.append(huber_loss)
+
+def running_reward_record(running_rwrd):
+	running_rwrd_arr.append(running_rwrd)
+
+def running_avg_reward_record(running_avg_rwrd):
+	running_avg_rwrd_arr.append(running_avg_rwrd)
