@@ -1,0 +1,45 @@
+<additional>
+	<laneAreaDetector id="e2det_N1_0" lane="-gneE25_0" endPos="-0.01" length="70.0" freq="1" file="e2out.xml" timeThreshold="1.0" speedThreshold="1.39" jamThreshold="10.0"/>
+	<laneAreaDetector id="e2det_N1_1" lane="-gneE25_1" endPos="-0.01" length="70.0" freq="1" file="e2out.xml" timeThreshold="1.0" speedThreshold="1.39" jamThreshold="10.0"/>
+	<laneAreaDetector id="e2det_N1_2" lane="-gneE25_2" endPos="-0.01" length="70.0" freq="1" file="e2out.xml" timeThreshold="1.0" speedThreshold="1.39" jamThreshold="10.0"/>
+	
+	<laneAreaDetector id="e2det_N2_0" lane="-gneE36_0" endPos="-0.01" length="70.0" freq="1" file="e2out.xml" timeThreshold="1.0" speedThreshold="1.39" jamThreshold="10.0"/>
+	<laneAreaDetector id="e2det_N2_1" lane="-gneE36_1" endPos="-0.01" length="70.0" freq="1" file="e2out.xml" timeThreshold="1.0" speedThreshold="1.39" jamThreshold="10.0"/>
+	
+	<laneAreaDetector id="e2det_N3_0" lane="gneE24_0" endPos="-0.01" length="70.0" freq="1" file="e2out.xml" timeThreshold="1.0" speedThreshold="1.39" jamThreshold="10.0"/>
+	<laneAreaDetector id="e2det_N3_1" lane="gneE24_1" endPos="-0.01" length="70.0" freq="1" file="e2out.xml" timeThreshold="1.0" speedThreshold="1.39" jamThreshold="10.0"/>
+	<laneAreaDetector id="e2det_N3_2" lane="gneE24_2" endPos="-0.01" length="70.0" freq="1" file="e2out.xml" timeThreshold="1.0" speedThreshold="1.39" jamThreshold="10.0"/>
+	
+	<laneAreaDetector id="e2det_N4_0" lane="-gneE54_0" endPos="-0.01" length="70.0" freq="1" file="e2out.xml" timeThreshold="1.0" speedThreshold="1.39" jamThreshold="10.0"/>
+	<laneAreaDetector id="e2det_N4_1" lane="-gneE54_1" endPos="-0.01" length="70.0" freq="1" file="e2out.xml" timeThreshold="1.0" speedThreshold="1.39" jamThreshold="10.0"/>
+	
+	<laneAreaDetector id="e2det_N5_0" lane="-gneE23_0" endPos="-0.01" length="70.0" freq="1" file="e2out.xml" timeThreshold="1.0" speedThreshold="1.39" jamThreshold="10.0"/>
+	<laneAreaDetector id="e2det_N5_1" lane="-gneE23_1" endPos="-0.01" length="70.0" freq="1" file="e2out.xml" timeThreshold="1.0" speedThreshold="1.39" jamThreshold="10.0"/>
+	<laneAreaDetector id="e2det_N5_2" lane="-gneE23_2" endPos="-0.01" length="70.0" freq="1" file="e2out.xml" timeThreshold="1.0" speedThreshold="1.39" jamThreshold="10.0"/>
+	
+	<laneAreaDetector id="e2det_N6_0" lane="-gneE44_0" endPos="-0.01" length="70.0" freq="1" file="e2out.xml" timeThreshold="1.0" speedThreshold="1.39" jamThreshold="10.0"/>
+	<laneAreaDetector id="e2det_N6_1" lane="-gneE44_1" endPos="-0.01" length="70.0" freq="1" file="e2out.xml" timeThreshold="1.0" speedThreshold="1.39" jamThreshold="10.0"/>
+	
+	<laneAreaDetector id="e2det_N7_0" lane="gneE22_0" endPos="-0.01" length="70.0" freq="1" file="e2out.xml" timeThreshold="1.0" speedThreshold="1.39" jamThreshold="10.0"/>
+	<laneAreaDetector id="e2det_N7_1" lane="gneE22_1" endPos="-0.01" length="70.0" freq="1" file="e2out.xml" timeThreshold="1.0" speedThreshold="1.39" jamThreshold="10.0"/>
+	<laneAreaDetector id="e2det_N7_2" lane="gneE22_2" endPos="-0.01" length="70.0" freq="1" file="e2out.xml" timeThreshold="1.0" speedThreshold="1.39" jamThreshold="10.0"/>
+	
+	<laneAreaDetector id="e2det_N8_0" lane="-gneE94_0" endPos="-0.01" length="70.0" freq="1" file="e2out.xml" timeThreshold="1.0" speedThreshold="1.39" jamThreshold="10.0"/>
+	<laneAreaDetector id="e2det_N8_1" lane="-gneE94_1" endPos="-0.01" length="70.0" freq="1" file="e2out.xml" timeThreshold="1.0" speedThreshold="1.39" jamThreshold="10.0"/>
+	
+	<laneAreaDetector id="e2det_N9_0" lane="-15254743#12_0" endPos="-0.01" length="70.0" freq="1" file="e2out.xml" timeThreshold="1.0" speedThreshold="1.39" jamThreshold="10.0"/>
+	
+	<laneAreaDetector id="e2det_N10_0" lane="318425078#20_0" endPos="-0.01" length="70.0" freq="1" file="e2out.xml" timeThreshold="1.0" speedThreshold="1.39" jamThreshold="10.0"/>
+	
+	<laneAreaDetector id="e2det_N11_0" lane="15254743#1_0" endPos="-0.01" length="70.0" freq="1" file="e2out.xml" timeThreshold="1.0" speedThreshold="1.39" jamThreshold="10.0"/>
+	
+	<laneAreaDetector id="e2det_N12_0" lane="-318425078#31_0" endPos="-0.01" length="70.0" freq="1" file="e2out.xml" timeThreshold="1.0" speedThreshold="1.39" jamThreshold="10.0"/>
+	
+	<laneAreaDetector id="e2det_N13_0" lane="gneE73_0" endPos="-0.01" length="70.0" freq="1" file="e2out.xml" timeThreshold="1.0" speedThreshold="1.39" jamThreshold="10.0"/>
+	<laneAreaDetector id="e2det_N13_1" lane="gneE73_1" endPos="-0.01" length="70.0" freq="1" file="e2out.xml" timeThreshold="1.0" speedThreshold="1.39" jamThreshold="10.0"/>
+	
+	<laneAreaDetector id="e2det_N14_0" lane="-gneE85_0" endPos="-0.01" length="70.0" freq="1" file="e2out.xml" timeThreshold="1.0" speedThreshold="1.39" jamThreshold="10.0"/>
+	
+	<laneAreaDetector id="e2det_N15_0" lane="-gneE75_0" endPos="-0.01" length="70.0" freq="1" file="e2out.xml" timeThreshold="1.0" speedThreshold="1.39" jamThreshold="10.0"/>
+	<laneAreaDetector id="e2det_N15_1" lane="-gneE75_1" endPos="-0.01" length="70.0" freq="1" file="e2out.xml" timeThreshold="1.0" speedThreshold="1.39" jamThreshold="10.0"/>
+</additional>
