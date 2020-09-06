@@ -1,6 +1,6 @@
 # Adaptive traffic control system using Deep Reinforcement Learning
 
-This project implements Quantile Regression Deep Q-Network (QR-DQN) algorithm to tackle the traffic congestion problem. The python package dependencies for this project are listed under the requirements.txt file. Make sure that the required dependencies are installed.
+This project implements **Quantile Regression Deep Q-Network (QR-DQN)** algorithm to tackle the traffic congestion problem. The python package dependencies for this project are listed under the requirements.txt file. Make sure that the required dependencies are installed.
 
 We use SUMO [Simulation of Urban Mobility] V1.5 software to simulate traffic patterns on which the algorithm has been tested. Details of SUMO installation can be found at https://sumo.dlr.de/docs/Installing.html
 
